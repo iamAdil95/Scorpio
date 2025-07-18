@@ -1,0 +1,9 @@
+{
+  "name": "scorpio",
+  "type": "module",
+  "author" : "Adil",
+  "dependencies": {
+    "@google/genai": "^1.10.0",
+    "dotenv": "^17.2.0"
+  }
+}
