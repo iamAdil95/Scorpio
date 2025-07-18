@@ -1,39 +1,47 @@
-# 🦂 Scorpio – Terminal Chatbot AI
+# 🦂 Scorpio - Terminal Powered AI Chatbot
 
-**Scorpio** is a terminal-powered AI chatbot that provides intelligent responses to user queries, simulating a natural text-based conversation in your command line. Built using Node.js and powered by language generation logic, it’s a clean, extendable base for terminal AI bots.
+Scorpio is a simple and intelligent command-line chatbot built using **Node.js** and the **Gemini API**. Ask it anything — and get AI-generated responses directly in your terminal.
 
 ---
-## 📚 What I Learned
 
-- Learned how to integrate and use Google's Gemini API with Node.js to generate intelligent text responses in a terminal interface.
-- Gained hands-on experience with command-line argument parsing, API calling, async functions, and JSON handling in a Node.js environment.
-- Improved understanding of chatbot logic, Markdown formatting, and how to document terminal-based projects effectively on GitHub.
+## 📸 Demo
 
-
-## 🧠 Example Interaction
-
-![Scorpio terminal demo](./demo.jpg)
-
-> Scorpio responding to the query: `"who is harry potter"`  
-> The bot provides a detailed, structured AI answer directly inside the terminal.
+<img src="demo.jpg" alt="Chatbot Screenshot" width="600"/>
 
 ---
 
 ## 🚀 Features
 
-- 🖥️ Fully command-line based
-- ✨ Rich, structured output using Markdown formatting
-- ⚡ Quick setup with minimal dependencies
-- 🤖 Extendable logic for various use cases (chat, learning bots, Q&A, etc.)
+- 💬 Ask questions via the terminal and get instant AI replies
+- 🧠 Uses Gemini API for intelligent, context-aware answers
+- ⚙️ Powered by clean Node.js backend
+- ✨ Supports Markdown-style output formatting
 
 ---
 
-## 📦 Installation
+## 🔧 Installation & Setup
 
-### 1. Clone the repository
+### 📥 1. Clone the Repository
 
 ```bash
 git clone https://github.com/iamAdil95/Scorpio.git
 cd Scorpio
 
-Made by Adil ❤
+📦 2. Install Dependencies
+npm install
+🔑 3. Configure Gemini API
+Create a .env file in the project root and add your Gemini API key like this:
+
+
+GEMINI_API_KEY=your_api_key_here
+
+⚠️ Never share your .env file or API key publicly.
+
+▶️ How to Use
+Run the chatbot directly from your terminal:
+node generate.js "your question here"
+
+Example:
+node generate.js "Who is Spider-Man?"
+
+Made by ADIL ❤
